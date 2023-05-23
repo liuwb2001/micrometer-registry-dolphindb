@@ -7,6 +7,13 @@ import io.micrometer.core.instrument.config.NamingConvention;
 import java.util.regex.Pattern;
 
 public class DolphinDBNamingConvention implements NamingConvention {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
     private static final String SEPARATOR = "_";
 
