@@ -8,6 +8,13 @@ import static io.micrometer.core.instrument.config.MeterRegistryConfigValidator.
 import static io.micrometer.core.instrument.config.validate.PropertyValidator.*;
 
 public interface DolphinDBConfig extends PushRegistryConfig {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
     DolphinDBConfig DEFAULT = k -> null;
 
