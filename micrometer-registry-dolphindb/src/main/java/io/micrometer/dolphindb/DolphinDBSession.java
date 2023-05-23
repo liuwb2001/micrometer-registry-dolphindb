@@ -5,6 +5,13 @@ import org.slf4j.LoggerFactory;
 import com.xxdb.*;
 
 public class DolphinDBSession {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
 //    private final DolphinDBConfig config;
 
