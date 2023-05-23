@@ -3,6 +3,11 @@ package io.micrometer.dolphindb;
 import io.micrometer.common.lang.Nullable;
 
 public class CreateDolphinDBScriptBuilder {
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
 
     private final static String db_PATH = "dbPath = '%s'\n";
 
