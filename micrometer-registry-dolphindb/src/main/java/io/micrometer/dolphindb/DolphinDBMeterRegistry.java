@@ -30,6 +30,14 @@ import java.util.function.ToLongFunction;
 import java.util.stream.StreamSupport;
 
 public class DolphinDBMeterRegistry extends PushMeterRegistry {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
+    
     private static final ThreadFactory DEFAULT_THREAD_FACTORY = new NamedThreadFactory("dolphindb-metrics-publisher");
 
     private final DolphinDBConfig config;
