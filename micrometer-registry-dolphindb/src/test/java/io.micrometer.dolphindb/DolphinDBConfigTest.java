@@ -10,6 +10,13 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class DolphinDBConfigTest {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
     private final Map<String, String> props = new HashMap<>();
 
