@@ -12,6 +12,14 @@ import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.LongAdder;
 public class DolphinDBTimer extends AbstractTimer {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
+    
     private static final CountAtBucket[] EMPTY_HISTOGRAM = new CountAtBucket[0];
 
     private final LongAdder count = new LongAdder();
