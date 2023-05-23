@@ -9,6 +9,13 @@ import java.time.Duration;
 import java.util.concurrent.atomic.DoubleAdder;
 import java.util.concurrent.atomic.LongAdder;
 public class DolphinDBDistributionSummary extends AbstractDistributionSummary{
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
     private static final CountAtBucket[] EMPTY_HISTOGRAM = new CountAtBucket[0];
 
