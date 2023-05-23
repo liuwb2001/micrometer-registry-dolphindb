@@ -10,6 +10,13 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static org.assertj.core.api.Assertions.assertThat;
 public class DolphinDBMeterRegistryTest {
+    
+    /**
+    * @author Wenbo Liu
+    *
+    * @since 1.0.0
+    */
+
 
     private final DolphinDBConfig config = DolphinDBConfig.DEFAULT;
     private final MockClock clock = new MockClock();
