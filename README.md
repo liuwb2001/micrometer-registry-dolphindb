@@ -223,3 +223,5 @@
 
 
 
+**settings.xml为maven配置文件，在将jar包推到maven中央仓库时候需要。**
+
