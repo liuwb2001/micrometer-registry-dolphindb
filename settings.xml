@@ -1,0 +1,33 @@
+<settings>
+	<mirrors>
+	    <mirror>
+	        <id>alimaven</id>
+	        <name>aliyun maven</name>
+	        <url>https://maven.aliyun.com/repository/central</url>
+	        <mirrorOf>central</mirrorOf>
+	    </mirror>
+	</mirrors>
+
+	<servers>
+		<server>
+			<id>ossrh</id>
+			<username>Wendell_LIU</username>
+			<password>Lwb20010101_</password>
+		</server>
+	</servers>
+	
+  	<profiles>
+    	<profile>
+      		<id>gpg</id>
+      		<properties>
+        		<gpg.executable>gpg</gpg.executable>
+        		<gpg.passphrase>Lwb20010101</gpg.passphrase>
+      		</properties>
+    	</profile>
+  	</profiles>
+  	<activeProfiles>
+    	<activeProfile>gpg</activeProfile>
+  	</activeProfiles>
+
+
+</settings>
